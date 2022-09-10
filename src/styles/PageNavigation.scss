@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+.comp-logo {
+  color: #586091;
+
+  padding-left: 15px;
+  font-family: "Monarda", serif;
+
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #0c0c0c;
+  color: white;
+
+  border: none;
+
+  padding: 7px;
+}
+
+.btn-contact {
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', sans-serif;
+
+  transition: 0.5s;
+}
+
+.btn-contact:hover {
+  transform: scale(1.05);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.btn-contact:active {
+  background-color: #626262;
+}
+
+.img-contact {
+  padding-left: 5px;
+  float: right;
+}
+
+.list {
+  width: 25px;
+}
