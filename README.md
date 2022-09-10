@@ -1,5 +1,11 @@
-In the project directory, you can run:
+### https://631cfd2d077179000878ace4--about-nattie.netlify.app/
 
+Just press the link and youre done
+
+or
+
+### git clone https://github.com/omoNattie/about-me
+### cd about-me
 ### `npm start`
 
 Runs the app in the development mode.\
