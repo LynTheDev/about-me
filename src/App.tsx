@@ -145,14 +145,7 @@ const App = () => {
            </div>
         </article>
 
-          <div className="dd">
-              p<br/>
-              p<br/>
-              p<br/>
-              p<br/>
-              p<br/>
-          </div>
-
+        <div className="dd"></div>
         <FixedSide />
       </main>
     </>
