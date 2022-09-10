@@ -4,8 +4,8 @@ Just press the link and youre done
 
 or
 
-### git clone https://github.com/omoNattie/about-me
-### cd about-me
+### `git clone https://github.com/omoNattie/about-me`
+### `cd about-me`
 ### `npm start`
 
 Runs the app in the development mode.\
