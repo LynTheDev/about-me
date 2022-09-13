@@ -59,8 +59,13 @@
 }
 
 .home-container {
+
+  display: flex;
+
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
   text-align: center;
 }
 
@@ -90,7 +95,7 @@
 }
 
 .df {
-  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .main-background {

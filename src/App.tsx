@@ -2,7 +2,6 @@ import PageNav from "./components/PageNavigation";
 import FixedSide from "./components/FixedSideBar";
 
 import AOS from 'aos';
-import ScrollIntoView from 'react-scroll-into-view'
 import React from 'react';
 
 import 'aos/dist/aos.css';
@@ -114,22 +113,22 @@ const App = () => {
                        For business related information, please email.<br/>
                    </p>
                        <div className="flex">
-                           <a href="https://twitter.com/omoNattie" target="_blank">
+                           <a href="https://twitter.com/omoNattie" target="_blank" rel="noreferrer">
                                <button type="button" className="btn-rounder move-left">
                                    <img className="btn-logo" src="/img/twitter.svg" alt="twitter"/>
                                </button>
                            </a>
-                           <a href="https://discord.com/users/824606337719074817" target="_blank">
+                           <a href="https://discord.com/users/824606337719074817" target="_blank" rel="noreferrer">
                                <button type="button" className="blue-btn move-left">
                                    <img className="btn-logo" src="/img/discord.svg" alt="twitter"/>
                                </button>
                            </a>
-                           <a href="https://github.com/omoNattie" target="_blank">
+                           <a href="https://github.com/omoNattie" target="_blank" rel="noreferrer">
                                <button type="button" className="btn-rounder move-left">
                                    <img className="btn-logo" src="/img/github.svg" alt="twitter"/>
                                </button>
                            </a><br/>
-                           <a href="mailto:omoNattie@gmail.com" target="_blank">
+                           <a href="mailto:omoNattie@gmail.com" target="_blank" rel="noreferrer">
                                <button type="button" className="btn-rounder move-down-btn">
                                    <img className="btn-logo" src="/img/mailbox.svg" alt="twitter"/>
                                </button>
