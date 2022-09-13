@@ -2,7 +2,7 @@ body {
   background-color: #eaeaea;
   color: black;
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 * {
@@ -28,7 +28,10 @@ li {
   src: url('../../public/font/open-sans/OpenSans-Light.ttf');
 }
 
-.dark-mode {
-  background-color: #3a3a3a;
-  color: white;
+.flexed {
+  display: flex;
+}
+
+.float-left {
+  float: left;
 }

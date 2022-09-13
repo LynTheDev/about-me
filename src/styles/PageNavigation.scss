@@ -48,3 +48,37 @@
 .list {
   width: 25px;
 }
+
+.dark-light {
+  margin-left: 5px;
+}
+
+.img-moon {
+  padding-left: 5px;
+  padding-top: 1px;
+  float: right;
+}
+
+.font-size {
+  font-size: 14px;
+}
+
+.empty {
+  border: none;
+
+  background-color: unset;
+
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.btn-no-pad {
+  border-radius: 20px;
+  background-color: #0c0c0c;
+  color: white;
+
+  border: none;
+}

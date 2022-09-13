@@ -47,7 +47,7 @@ const App = () => {
                     <h1 className="header-text animate-bar delay-fast">I am a web developer</h1>
                     <p className="intro-text animate-bar delay-medium">
                         I love retro.<br/>
-                        I am a beginner web developer and an aspiring c# engineer.<br/>
+                        I am a beginner web developer and an aspiring C# engineer.<br/>
                         I work on discord bots.
                     </p>
 
