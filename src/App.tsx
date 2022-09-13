@@ -16,20 +16,9 @@ import "./styles/PageNavigation.scss"
 AOS.init();
 
 const App = () => {
-  const goToDiscord = () => {
-      window.open('https://discord.com/users/824606337719074817')
-  }
-
-  const goToTwitter = () => {
-      window.open('https://twitter.com/omoNattie')
-  }
-
-  const goToGithub = () => {
-      window.open('https://github.com/omoNattie')
-  }
-
-  const goToMail = () => {
-      window.open('mailto:omoNattie@gmail.com')
+  const ScrollView = () => {
+      // @ts-ignore
+      document.getElementById('abt').scrollIntoView({behavior: "smooth"});
   }
 
   return (
@@ -51,12 +40,10 @@ const App = () => {
                         I work on discord bots.
                     </p>
 
-                    <ScrollIntoView selector="#abt">
-                        <button type="button" className="btn btn-shadows df animate-bar delay-slow">
-                            More about me
-                            <img alt="arrow down" className="img-abt-btn" src="/img/caret-down-fill.svg"/>
-                        </button>
-                    </ScrollIntoView>
+                    <button type="button" onClick={ScrollView} className="btn btn-shadows df animate-bar delay-slow">
+                        More about me
+                        <img alt="arrow down" className="img-abt-btn" src="/img/caret-down-fill.svg"/>
+                    </button>
                 </section>
             </article>
         </div>
@@ -125,22 +112,29 @@ const App = () => {
                        Discord is my main social media, it's where I talk with my friends, please do not message me with business in mind there unless I specify.<br/>
                        You can check out most of my projects on my github page, where you can also look at all of my code.<br/>
                        For business related information, please email.<br/>
-
-                       <div className="flex">
-                            <button type="button" className="btn-rounder move-left">
-                                <img className="btn-logo" onClick={goToTwitter} src="/img/twitter.svg" alt="twitter"/>
-                            </button>
-                           <button type="button" onClick={goToDiscord} className="blue-btn move-left">
-                               <img className="btn-logo" src="/img/discord.svg" alt="twitter"/>
-                           </button>
-                           <button type="button" onClick={goToGithub} className="btn-rounder move-left">
-                               <img className="btn-logo" src="/img/github.svg" alt="twitter"/>
-                           </button><br/>
-                           <button type="button" onClick={goToMail} className="btn-rounder move-down-btn">
-                               <img className="btn-logo" src="/img/mailbox.svg" alt="twitter"/>
-                           </button>
-                       </div>
                    </p>
+                       <div className="flex">
+                           <a href="https://twitter.com/omoNattie" target="_blank">
+                               <button type="button" className="btn-rounder move-left">
+                                   <img className="btn-logo" src="/img/twitter.svg" alt="twitter"/>
+                               </button>
+                           </a>
+                           <a href="https://discord.com/users/824606337719074817" target="_blank">
+                               <button type="button" className="blue-btn move-left">
+                                   <img className="btn-logo" src="/img/discord.svg" alt="twitter"/>
+                               </button>
+                           </a>
+                           <a href="https://github.com/omoNattie" target="_blank">
+                               <button type="button" className="btn-rounder move-left">
+                                   <img className="btn-logo" src="/img/github.svg" alt="twitter"/>
+                               </button>
+                           </a><br/>
+                           <a href="mailto:omoNattie@gmail.com" target="_blank">
+                               <button type="button" className="btn-rounder move-down-btn">
+                                   <img className="btn-logo" src="/img/mailbox.svg" alt="twitter"/>
+                               </button>
+                           </a>
+                       </div>
                </section>
            </div>
         </article>
