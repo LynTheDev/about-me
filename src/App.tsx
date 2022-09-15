@@ -61,10 +61,14 @@ const App = () => {
                         I want to try new things so I would love to try to work in a team one day!
                     </p>
 
-                    <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" />
+                    <span data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                        <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" data-aos="fade-up" />
+                    </span>
                 </section>
             </div>
-           <div data-aos="fade-up">
+           <div data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-duration="500">
                <section className="work-section center" id="work">
                    <h3 className="header-text move-down">Work</h3>
                    <p className="name-text">
@@ -73,12 +77,24 @@ const App = () => {
                        I like making UI, working with CSS/SASS animations and react.
                    </p>
                    <div className="center">
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" width="52" alt="sass logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+                       <span data-aos="fade-right" data-aos-delay="200">
+                           <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+                           <span data-aos="fade-right" data-aos-delay="300">
+                               <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+                               <span data-aos="fade-right" data-aos-delay="400">
+                                   <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" width="52" alt="sass logo"  />
+                                   <span data-aos="fade-right" data-aos-delay="500">
+                                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+                                       <span data-aos="fade-right" data-aos-delay="600">
+                                           <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
+                                           <span data-aos="fade-right" data-aos-delay="700">
+                                               <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+                                           </span>
+                                       </span>
+                                   </span>
+                               </span>
+                           </span>
+                       </span>
                    </div>
                    <p className="name-text">
                        I also work with other languages. <br/>
@@ -86,9 +102,16 @@ const App = () => {
                        C# is my fallback language, it's good at everything.
                    </p>
                    <div className="center">
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="52" alt="csharp logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" width="52" alt="cplusplus logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" alt="python logo"  />
+                       <span data-aos="fade-right" data-aos-delay="200">
+                           <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="52" alt="csharp logo"  />
+                           <span data-aos="fade-right" data-aos-delay="300">
+                               <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" width="52" alt="cplusplus logo"  />
+                               <span data-aos="fade-right" data-aos-delay="400">
+                                   <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" alt="python logo"  />
+                               </span>
+                           </span>
+                       </span>
+
                    </div>
                    <p className="name-text">
                        My tools of choice are pretty basic, but they do their job very well.<br/>
@@ -96,13 +119,15 @@ const App = () => {
                        I use Rider for c# backend and WebStorm for react/express apps.
                    </p>
                    <div className="center">
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" width="52" alt="pycharm logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" width="52" alt="jetbrains logo"  />
-                       <img className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" alt="vscode logo"  />
+                       <img data-aos="fade-right" data-aos-delay="200" className="raise" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" width="52" alt="pycharm logo"  />
+                       <img className="raise" data-aos="fade-right" data-aos-delay="300" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" width="52" alt="jetbrains logo"  />
+                       <img className="raise" data-aos="fade-right" data-aos-delay="400" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" alt="vscode logo"  />
                    </div>
                </section>
            </div>
-           <div data-aos="fade-up">
+           <div data-aos="fade-left"
+               data-aos-offset="500"
+               data-aos-duration="500">
                <section className="contact-section center" id="cta">
                    <h4 className="header-text move-down">Contact & Socials</h4>
                    <p className="name-text">
