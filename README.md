@@ -1,4 +1,4 @@
-### https://631cfd2d077179000878ace4--about-nattie.netlify.app/
+### https://about-nattie.netlify.app/
 
 Just press the link and youre done
 
