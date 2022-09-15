@@ -61,12 +61,10 @@ const App = () => {
                         I want to try new things so I would love to try to work in a team one day!
                     </p>
 
-                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
-                        <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" />
-                    </span>
+                    <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" />
                 </section>
             </div>
-           <div data-aos="fade-right"
+           <div data-aos="fade-up"
                 data-aos-offset="500"
                 data-aos-duration="500">
                <section className="work-section center" id="work">
@@ -125,7 +123,7 @@ const App = () => {
                    </div>
                </section>
            </div>
-           <div data-aos="fade-left"
+           <div data-aos="fade-up"
                data-aos-offset="500"
                data-aos-duration="500">
                <section className="contact-section center" id="cta">
@@ -137,7 +135,7 @@ const App = () => {
                        You can check out most of my projects on my github page, where you can also look at all of my code.<br/>
                        For business related information, please email.<br/>
                    </p>
-                       <div className="flex">
+                       <div className="flex" data-aos="fade-up" data-aos-delay="400">
                            <a href="https://twitter.com/omoNattie" target="_blank" rel="noreferrer">
                                <button type="button" className="btn-rounder move-left">
                                    <img className="btn-logo" src="/img/twitter.svg" alt="twitter"/>
@@ -164,6 +162,7 @@ const App = () => {
         </article>
 
         <div className="dd"></div>
+
         <FixedSide />
       </main>
     </>
