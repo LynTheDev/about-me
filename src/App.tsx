@@ -62,7 +62,7 @@ const App = () => {
                     </p>
 
                     <span data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
-                        <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" data-aos="fade-up" />
+                        <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" />
                     </span>
                 </section>
             </div>
