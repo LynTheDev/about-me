@@ -61,7 +61,7 @@ const App = () => {
                         I want to try new things so I would love to try to work in a team one day!
                     </p>
 
-                    <span data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                         <img src="/img/code-snippet-a.png" className="code-snippet" alt="CodeSnippet" />
                     </span>
                 </section>
