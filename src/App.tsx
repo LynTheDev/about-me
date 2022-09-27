@@ -161,7 +161,7 @@ const App = () => {
         <div className="dd"></div>
 
         <FixedSide />
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/" className="footer-text" id="licence" target="_blank" data-aos="fade-up" data-aos-delay="400">
+        <a rel="noreferrer" href="https://creativecommons.org/publicdomain/zero/1.0/" className="footer-text" id="licence" target="_blank" data-aos="fade-up" data-aos-delay="400">
             Under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
         </a>
       </main>
