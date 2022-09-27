@@ -20,9 +20,12 @@ const PageNav = () => {
 
         // @ts-ignore
         document.getElementById("moon").src="/img/sun-fill.svg";
+
+        // @ts-ignore
+        document.getElementById("licence").style.color = 'white';
     }
 
-    const [dark, setDark] = React.useState<boolean>(false);
+    const [dark, setDark] = React.useState<boolean>(true);
 
     const handleDark = () => {
         setDark(!dark);
@@ -41,6 +44,9 @@ const PageNav = () => {
 
         // @ts-ignore
         document.getElementById("moon").src="/img/moon.svg";
+
+        // @ts-ignore
+        document.getElementById("licence").style.color = 'black';
     }
 
     return (

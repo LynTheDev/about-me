@@ -26,9 +26,6 @@ const App = () => {
         <div className="main-background" id="home">
             <PageNav />
 
-            <img className="cassette-main" src="/img/cassette-bg.png" alt="cassette"/>
-            <img className="cassette-player-main" src="/img/cassette-player.PNG" alt="cassette player"/>
-
             <article>
                 <section className="home-container animate-push">
                     <p className="nat-welcome animate-push delay-fast">Hi, I'm Natalie.</p>
@@ -164,6 +161,9 @@ const App = () => {
         <div className="dd"></div>
 
         <FixedSide />
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/" className="footer-text" id="licence" target="_blank" data-aos="fade-up" data-aos-delay="400">
+            Under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+        </a>
       </main>
     </>
   );
