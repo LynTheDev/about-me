@@ -8,6 +8,7 @@ or
 
 ### `git clone https://github.com/omoNattie/about-me`
 ### `cd about-me`
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
